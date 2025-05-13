@@ -50,7 +50,7 @@ else
 fi
 
 # 配置 pnpm 镜像
-pnpm config set registry https://registry.npmmirror.com
+#pnpm config set registry https://registry.npmmirror.com
 
 # 处理 pnpm v7+ 环境变量
 npm_ver=$(pnpm -v | awk -F. '{print $1}')
